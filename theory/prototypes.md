@@ -1,3 +1,5 @@
+# Прототипы и прототипное наследование
+
 **Прототип**  - резервное хранилище свойств и методов объекта, которое автоматически используется при поиске. Ссылка на прототип хранится в специальном свойстве объекта ``__proto__``. 
 
 Прототипы – механизм, с помощью которого объекты наследуют свойства друг друга.
@@ -61,6 +63,7 @@ Worker.prototype.getInfo = function() {
 var worker = new Worker('Bob', 'Smith 2', 'Microsoft');
 console.log(worker.getFullname());
 console.log(worker.getInfo());
+
 ```
 
 Весь исходный код:
@@ -106,6 +109,7 @@ Worker.prototype.getInfo = function() {
 var worker = new Worker('Bob', 'Smith 2', 'Microsoft');
 console.log(worker.getFullname());
 console.log(worker.getInfo());
+
 ```
 
 Источники:
