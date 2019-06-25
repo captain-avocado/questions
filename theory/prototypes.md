@@ -15,7 +15,7 @@ function Person(first, last) {
 }
 
 var person = new Person('Bob', 'Smith');
-console.log(person.first + person.last); //выводит заданные свойства
+console.log(person.first + ' ' + person.last); //выводит заданные свойства
 console.log(person.valueOf()); //метод valueOf не определен в функции-конструкторе, браузер обращается к прототипу объекта – Object, у которого есть данный метод
 
 ```
@@ -85,7 +85,7 @@ console.log(Object.prototype); //множество определенных в 
 //
 
 Person.prototype.getFullname = function() {
-  return this.first + ' ' + this.last';
+  return this.first + ' ' + this.last;
 }
 
 console.log(person.getFullname()); // Bob Smith
