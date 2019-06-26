@@ -17,16 +17,27 @@
 4. **Жизненный цикл компонента**
 
   1) Монтирование: 
-      -установка props и state (constructor -> getDerivedStateFromProps)
-      -render
-      -compontntDidMount – компонент смонтирован
+
+      - установка props и state (constructor -> getDerivedStateFromProps)
+
+      - render
+
+      - compontntDidMount – компонент смонтирован
+
+
   2) Обновление - происходит изменение компонента из-за обновления свойств или состояния:
-      -getDerivedStateFromProps (обновление props)
-      -shouldComponentUpdate
-      -render
-      -componentDidUpdate - компонент обновлен
+
+      - getDerivedStateFromProps (обновление props)
+
+      - shouldComponentUpdate
+
+      - render
+
+      - componentDidUpdate - компонент обновлен
+
   3) Размонтирование:
-      -componentWillUnmount - компонент готов к размонтированию
+  
+      - componentWillUnmount - компонент готов к размонтированию
       
 
 
