@@ -2,9 +2,11 @@
 
 ##Вопросы по JavaScript
 
+---
 ###### 1. Как можно создать объект? В чем разница?
 
-**Ответ:**
+<details><summary><b>Ответ:</b></summary>
+<p>
 
 ```javascript
 let a = {}; 
@@ -19,7 +21,10 @@ function A() {}
 let a = new A();
 ```
 
+</p>
+</details>
 
+---
 ###### 2. Что выведет код?
 
 
@@ -36,9 +41,33 @@ console.log(a); // ?
 <details><summary><b>Ответ:</b></summary>
 <p>
 
-**Ответ:**
 ```javascript
 {a: 10}
+```
+
+</p>
+</details>
+
+---
+
+###### 2. Что такое замыкание?
+
+<details><summary><b>Ответ:</b></summary>
+<p>
+
+```javascript
+function makeCounter() {
+  let counter = 0;
+
+  return () => {
+    counter++;
+  }
+}
+
+let a = makeCounter();
+
+console.log(a()); // 1
+console.log(a()); // 2
 ```
 
 </p>
