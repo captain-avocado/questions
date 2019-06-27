@@ -33,8 +33,13 @@ var a = {};
 
 console.log(a); // ?
 ```
+<details><summary><b>Ответ:</b></summary>
+<p>
+
 **Ответ:**
 ```javascript
 {a: 10}
 ```
 
+</p>
+</details>
