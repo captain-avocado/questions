@@ -6,10 +6,9 @@
 
 1. *Ориентированный граф* – граф, ребрам которого присвоено направление. Если ни одному ребру графа не присвоено направление, то он называется *неориентированным*. Смешанный граф - граф, в котором ребра могут ориентированными или неоринтированными.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Undirected.svg/1920px-Undirected.svg.png)" width="200"/>
-<img src="https://github.com/your_image.png" alt="Your image title" width="250"/>
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Directed.svg/1920px-Directed.svg.png)" width="45%" max-width="200px"/>
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+<!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Undirected.svg/1920px-Undirected.svg.png)" width="200"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Directed.svg/1920px-Directed.svg.png)" width="45%" max-width="200px"/> -->
 
 
 2. - Маршрут – конечная последовательность вершин, каждая из которых соединена со следующей в последовательности вершиной и ребром.
