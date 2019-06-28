@@ -81,7 +81,7 @@ foo(); //5 - переменная доступна
   if (true) {
     console.log(b);
     let b = 10; //reference error: b is not defined
-    }
+  }
   ```
 
   б.
