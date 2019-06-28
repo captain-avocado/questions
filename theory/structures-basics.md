@@ -6,7 +6,7 @@
 
 1. *Ориентированный граф* – граф, ребрам которого присвоено направление. Если ни одному ребру графа не присвоено направление, то он называется *неориентированным*. Смешанный граф - граф, в котором ребра могут ориентированными или неоринтированными.
 
-![Неориентированный](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Undirected.svg/1920px-Undirected.svg.png =200x20)
+![Неориентированный](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Undirected.svg/1920px-Undirected.svg.png){: width="200px"}.
 ![Ориентированный](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Directed.svg/1920px-Directed.svg.png)
 
 
